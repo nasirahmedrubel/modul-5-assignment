@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <div class="card">
+        <div class="card-title">
+            <h1>Registration</h1>
+        </div>
+        
+        <div class="card-body">
+
+            <div class="col-left">
+                <div class="verticalForm">
+                    <label for="fullName" class="labelForm lRow">Full Name</label>
+                    <input type="text" name="name" class="inputText" placeholder="Enter Your Full Name"  id="fullName" autocomplete="on">
+                </div>
+                <div class="verticalForm">
+                    <label for="email" class="labelForm lRow">Email</label>
+                    <input type="email" name="email" placeholder="Enter Your Emain" class="inputText"  id="email" autocomplete="on">
+                </div>
+                <div class="verticalForm">
+                    <label for="password" class="labelForm lRow">Password </label>
+                    <input type="password" name="password" placeholder="Enter Your Password" class="inputText"  id="password">
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="verticalForm">
+                    <label for="username" class="labelForm rRow">Username</label>
+                    <input type="text" name="username" placeholder="Enter Your Username" class="inputText"  id="username" autocomplete="on">
+                </div>
+                <div class="verticalForm">
+                    <label for="pNumber" class="labelForm rRow">Phone Number</label>
+                    <input type="text" name="phone" placeholder="Enter Your Phone Number" class="inputText"  id="pNumber" autocomplete="on">
+                </div>
+                <div class="verticalForm">
+                    <label for="cPassword" class="labelForm rRow">Confirm Password </label>
+                    <input type="password" name="cPassword" placeholder="Confirm Your Password" class="inputText"  id="cPassword">
+                </div>
+            </div>
+            
+            <div class="col-bottom">
+                <label>gender :</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="col-btn">
+                <button class="btn-cancel">Cancel</button>
+                <button class="btn-submit">Submit</button>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
